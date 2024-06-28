@@ -6,28 +6,33 @@ import React from "react";
 
 const Head = () => {
 	return (
-		<>
-			<div className="flex flex-row items-center justify-center h-screen max-w-7xl mx-auto">
-				<div className="w-full">
-					<div>
-						#1 
+		<div  className="bg-[url('/images/bg.png')]">
+			<div className="flex flex-row items-center gap-16 justify-center h-screen max-w-7xl  mx-auto">
+				<div className="w-full flex flex-col gap-5">
+					<div className="text-transparent bg-clip-text bg-gradient-to-b from-pink-600 to-yellow-400 text-xl">
+						#1 solution for your business
 					</div>
-					<div className="text-4xl">
-						Business and Payment Consulting
+					<div className="text-8xl font-bold">
+						Business & Payment Consulting
 					</div>
 				</div>
-				<div className="w-full">
-					<div>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ullam quas sed doloremque iusto natus maiores numquam sit veritatis cum facilis, nihil quae nesciunt accusantium in placeat sapiente. Explicabo, minus.
+				<div className="w-full flex flex-col gap-10">
+					<div className="text-2xl">
+						We offer innovative solution and techniques based on years of experience working on various companies.
 					</div>
 					<div>
-						<button className="w-60 flex flex-row items-center py-3 px-4 bg-gradient-to-r from-amber-500 to-pink-500 rounded-full">
-							Get Started
+						<button className="w-48 flex  flex-row items-center justify-between py-3 px-4 bg-gradient-to-l from-amber-500 to-pink-500 rounded-full">
+							<span>
+								Get Started
+							</span>
+							<span>
+								->
+							</span>
 						</button>
 					</div>
 				</div>
 			</div>
-		</>
+		</div>
 	)
 }
 

@@ -11,7 +11,7 @@ import Contact_Button from './Buttons/Contact_Button';
 const Navbar = () => {
 	return (
 		<>
-			<div className="border-b px-16 py-3 flex flex-row justify-between items-center w-full fixed">
+			<div className=" px-16 py-3 flex flex-row justify-between items-center w-full fixed">
 				<div>
 					<Logo />	
 				</div>
