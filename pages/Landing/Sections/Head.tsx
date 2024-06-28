@@ -26,7 +26,7 @@ const Head = () => {
 								Get Started
 							</span>
 							<span>
-								->
+								-
 							</span>
 						</button>
 					</div>
