@@ -13,7 +13,7 @@ const Head = () => {
 						#1 solution for your business
 					</div>
 					<div className="text-8xl font-bold">
-						Business & Payment Consulting
+						Business Consulting
 					</div>
 				</div>
 				<div className="w-full flex flex-col gap-10">

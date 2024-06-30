@@ -11,17 +11,17 @@ const Banner = () => {
 				<div className='text-5xl w-1/3 font-medium text-center'>
 					Evolutionary Path of Our Consultancy Agency
 				</div>
-				<div className='w-1/2'>
+				<div className='w-1/3 text-center'>
 					We have established a platform for budding enterpreneurs to master the art of intiating and expanding their businesses successfully.
 				</div>
 				<div>
-					<button className="w-48 flex  flex-row items-center justify-between py-3 px-4 bg-gradient-to-l from-amber-500 to-pink-500 rounded-full">
+					<button className="w-48 flex text-white  flex-row items-center justify-between py-3 px-4 bg-gradient-to-l from-amber-500 to-pink-500 rounded-full">
 						<span>
 							Get Started
 						</span>
-						<span>
+						<div className='text-black rounded-full w-6 bg-white'>
 							-
-						</span>
+						</div>
 					</button>
 				</div>
 			</div>
