@@ -29,7 +29,7 @@ const B_Services = () => {
 							</button>
 						</div>
 					</div>
-					<div className='flex flex-col gap-3 w-full'>
+					<div className='flex flex-col gap-10 w-full'>
 						<div className='flex flex-row gap-3 '>
 							<img src="/" />
 							<div>

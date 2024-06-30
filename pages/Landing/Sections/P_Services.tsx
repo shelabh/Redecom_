@@ -6,17 +6,17 @@ import React from 'react'
 const P_Services = () => {
 	return (
 		<>
-			<div className=' p-16'>
+			<div className='bg-white text-black p-16'>
 				<div className='flex flex-row-reverse items-center max-w-7xl  gap-10 mx-auto p-16'>
 					<div className='flex flex-col gap-5 w-full items-end'>
 						<div className='text-7xl text-right font-semibold'>
 							Payment Consulting
 						</div>
 						<div className='text-right'>
-							Provide strategic guidance and practical solutions to impact market and revenue share of businesses globally.
+							Provide innovative comprehensive and effective payment solutions that meet the needs and drive business growth.
 						</div>	
 						<div className=''>
-							<button className="w-48 flex text-black  bg-white flex-row items-center justify-between py-3 px-4  rounded-full">
+							<button className="w-48 flex  border-2 flex-row items-center justify-between py-3 px-4  rounded-full">
 								<span>
 									Get Started
 								</span>
@@ -26,23 +26,23 @@ const P_Services = () => {
 							</button>
 						</div>
 					</div>
-					<div className='flex flex-col gap-3 w-full'>
+					<div className='flex flex-col gap-10 w-full'>
 						<div className='flex flex-row gap-3 '>
 							<img src="/" />
 							<div>
-								Strategic planning and execution to fulfill the core business's short and long-term objectives, through actionable strategies.
+								Strategic planning and execution to fulfill business-specific payment ecosystems through actionable strategies.
 							</div>
 						</div>
 						<div className='flex flex-row gap-3 '>
 							<img src="/" />
 							<div>
-								Discovery workshops on product-market fit, pricing, gap analysis, market analysis to tap into opportunities with a clear business road map.
+								Handhold domestic and global payment project planning and execution to scale opportunities with a clear sustainable road map.
 							</div>
 						</div>
 						<div className='flex flex-row gap-3 '>
 							<img src="/" />
 							<div>
-								Business model and GTM strategy to scale market and revenue share for the business.
+								Domain specific business Intelligence, innovation, improvements to increase efficiency, security and user experience for a seemless payment experience.
 							</div>
 						</div>
 					</div>
