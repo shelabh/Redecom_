@@ -7,8 +7,8 @@ import React from 'react';
 const Banner = () => {
 	return (
 		<>
-			<div className='h-80 bg-white text-black w-full flex flex-col gap-5 items-center justify-center'>
-				<div className='text-5xl w-1/3 font-medium text-center'>
+			<div className='h-96 bg-white text-black w-full flex flex-col gap-5 items-center justify-center'>
+				<div className='text-5xl w-1/3 font-semibold text-center'>
 					Evolutionary Path of Our Consultancy Agency
 				</div>
 				<div className='w-1/3 text-center'>

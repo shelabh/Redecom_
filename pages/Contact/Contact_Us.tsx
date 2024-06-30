@@ -8,7 +8,7 @@ const Contact_Us = () => {
 	return (
 		<>
 			<div>
-				Contatc_Us
+				Contact_Us
 			</div>
 		</>
 	)

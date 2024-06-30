@@ -8,8 +8,8 @@ const Head = () => {
 	return (
 		<div  className="bg-[url('/images/bg.png')]">
 			<div className="flex flex-row items-center gap-16 justify-center h-screen max-w-7xl  mx-auto">
-				<div className="w-full flex flex-col gap-5">
-					<div className="text-transparent bg-clip-text bg-gradient-to-b from-pink-600 to-yellow-400 text-xl">
+				<div className="w-full flex flex-col gap-1">
+					<div className="text-transparent bg-clip-text bg-gradient-to-b from-pink-600 to-yellow-400 text-md">
 						#1 solution for your business
 					</div>
 					<div className="text-8xl font-bold">
