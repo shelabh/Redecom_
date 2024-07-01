@@ -10,6 +10,7 @@ import B_Features from "./Sections/B_Features";
 import P_Features from "./Sections/P_Features";
 import FAQ from "./Sections/FAQ";
 import Contact_Banner from "./Sections/Contact_Banner";
+import Reviews from "./Sections/Reviews";
 
 
 const Landing = () => {
@@ -22,6 +23,7 @@ const Landing = () => {
 				<B_Features />
 				<P_Services />
 				<P_Features />
+				<Reviews />
 				<FAQ />
 				<Contact_Banner />
 			</div>
