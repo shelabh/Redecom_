@@ -4,6 +4,7 @@ import React from 'react';
 import Logo from './Logo';
 import Contact_Button from './Buttons/Contact_Button';
 import {  usePathname } from 'next/navigation';
+import Link from 'next/link';
 
 
 
@@ -22,12 +23,13 @@ const Navbar = () => {
 					<div className='flex flex-row gap-3'>
 						About Us
 					</div>
-					<div>
+					<Link href="#services">
 						Services
-					</div>
-					<div>
+					</Link>
+					<Link href="#reviews">
 						Reviews
-					</div>
+					</Link>
+					
 				</div>
 				<div>
 					<Contact_Button />

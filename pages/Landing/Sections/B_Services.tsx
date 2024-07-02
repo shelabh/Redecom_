@@ -1,12 +1,13 @@
 'use client'
 
+import Link from 'next/link'
 import React from 'react'
 
 
 const B_Services = () => {
 	return (
 		<>
-			<div className="flex bg-[url('/images/b_services.png')] bg-cover bg-center flex-col items-center gap-10 p-16">
+			<div id="services" className="flex bg-[url('/images/b_services.png')] bg-cover bg-center flex-col items-center gap-10 p-16">
 				<div className='text-3xl font-medium'>
 					Our Services
 				</div>
@@ -19,14 +20,16 @@ const B_Services = () => {
 							Provide strategic guidance and practical solutions to impact market and revenue share of businesses globally.
 						</div>	
 						<div>
-							<button className="w-48 flex text-black  bg-white flex-row items-center justify-between py-3 px-4  rounded-full">
-								<span>
-									Get Started
-								</span>
-								<span className='rounded-full w-6 bg-gradient-to-l from-amber-500 to-pink-500 text-white'>
-									-
-								</span>
-							</button>
+							<Link href="/contact" >
+								<button className="w-48 flex text-black  bg-white flex-row items-center justify-between py-3 px-4  rounded-full">
+									<span>
+										Get Started
+									</span>
+									<span className='rounded-full p-1 bg-gradient-to-l from-amber-500 to-pink-500 text-white'>
+										<img src="/images/right_arrow_white.svg" draggable="false" />
+									</span>
+								</button>
+							</Link>
 						</div>
 					</div>
 					<div className='flex flex-col gap-10 w-full'>

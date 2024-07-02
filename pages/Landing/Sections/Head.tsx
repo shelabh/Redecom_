@@ -26,7 +26,7 @@ const Head = () => {
 								Learn More
 							</span>
 							<span>
-								-
+								<img src="/images/right_arrow_white.svg" draggable="false" />
 							</span>
 						</button>
 					</div>

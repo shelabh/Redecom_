@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -16,14 +17,16 @@ const P_Services = () => {
 							Provide innovative comprehensive and effective payment solutions that meet the needs and drive business growth.
 						</div>	
 						<div className=''>
-							<button className="w-48 flex  border-2 flex-row items-center justify-between py-3 px-4  rounded-full">
-								<span>
-									Get Started
-								</span>
-								<span className='rounded-full w-6 bg-gradient-to-l from-amber-500 to-pink-500 text-white'>
-									-
-								</span>
-							</button>
+							<Link href="/contact">
+								<button className="w-48 flex  border-2 flex-row items-center justify-between py-3 px-4  rounded-full">
+									<span>
+										Get Started
+									</span>
+									<span className='rounded-full p-1 bg-gradient-to-l from-amber-500 to-pink-500 text-white'>
+										<img src="/images/right_arrow_white.svg" draggable="false" />
+									</span>
+								</button>
+							</Link>
 						</div>
 					</div>
 					<div className='flex flex-col gap-10 w-full'>

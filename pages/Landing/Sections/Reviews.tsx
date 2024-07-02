@@ -5,7 +5,7 @@ import React from 'react';
 const Reviews = () => {
 	return (
 		<>
-			<div className='flex flex-col max-w-7xl mx-auto p-28 gap-10'>
+			<div id="reviews" className='flex flex-col max-w-7xl mx-auto p-28 gap-10'>
 				<div className='text-3xl font-medium'>
 					Early Reviews
 				</div>
