@@ -6,7 +6,7 @@ import React from 'react'
 const B_Services = () => {
 	return (
 		<>
-			<div className='flex flex-col items-center gap-10 p-16'>
+			<div className="flex bg-[url('/images/b_services.png')] bg-cover bg-center flex-col items-center gap-10 p-16">
 				<div className='text-3xl font-medium'>
 					Our Services
 				</div>
@@ -30,20 +30,26 @@ const B_Services = () => {
 						</div>
 					</div>
 					<div className='flex flex-col gap-10 w-full'>
-						<div className='flex flex-row gap-3 '>
-							<img src="/" />
-							<div>
+						<div className='flex flex-row gap-5 items-center '>
+							<div className='p-4 rounded-full bg-white flex flex-row justify-center'>
+								<img src="/images/b_1.svg" draggable="false" className='w-14' />
+							</div>
+							<div className=' '>
 								Strategic planning and execution to fulfill the core business's short and long-term objectives, through actionable strategies.
 							</div>
 						</div>
-						<div className='flex flex-row gap-3 '>
-							<img src="/" />
+						<div className='flex flex-row gap-5 items-center'>
+							<div className='p-4 rounded-full bg-white flex flex-row justify-center'>
+								<img src="/images/b_2.svg" draggable="false" className='w-16' />
+							</div>
 							<div>
 								Discovery workshops on product-market fit, pricing, gap analysis, market analysis to tap into opportunities with a clear business road map.
 							</div>
 						</div>
-						<div className='flex flex-row gap-3 '>
-							<img src="/" />
+						<div className='flex flex-row gap-5 items-center'>
+							<div className='p-4 rounded-full bg-white flex flex-row  justify-center'>
+								<img src="/images/b_3.svg" draggable="false" className='w-10' />
+							</div>
 							<div>
 								Business model and GTM strategy to scale market and revenue share for the business.
 							</div>

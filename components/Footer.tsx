@@ -12,16 +12,6 @@ const Footer = () => {
 						<div>
 							<Logo />
 						</div>
-						<div>
-						<button className="w-40 flex  flex-row items-center justify-between py-3 px-4 bg-gradient-to-l from-amber-500 to-pink-500 rounded-full">
-							<span className='text-sm'>
-								Get Started
-							</span>
-							<span className='w-6 rounded-full bg-white text-black'>
-								-
-							</span>
-						</button>
-					</div>
 					</div>
 					<div className='flex flex-row border-t-gray-500 border-t pt-5 justify-between items-center'>
 						<div className='text-sm'>

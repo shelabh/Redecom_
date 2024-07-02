@@ -162,7 +162,7 @@ const Contact_Form: React.FC<FeedbackFormProps> = () => {
 					className="w-full border-b p-2 focus:outline-none "
 					id="description_of_business"
 					name="description_of_business"
-					placeholder="Breif Description of Business/Organization"
+					placeholder="Brief Description of Business/Organization"
 					required
 					onChange={handleChange}
 					value={formData.description_of_business} 

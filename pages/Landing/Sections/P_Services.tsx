@@ -27,20 +27,26 @@ const P_Services = () => {
 						</div>
 					</div>
 					<div className='flex flex-col gap-10 w-full'>
-						<div className='flex flex-row gap-3 '>
-							<img src="/" />
+						<div className='flex flex-row gap-5 items-center '>
+							<div className='p-4 rounded-full border-2 flex flex-row  justify-center'>
+								<img src="/images/b_1.svg" draggable="false" className='w-12' />
+							</div>
 							<div>
 								Strategic planning and execution to fulfill business-specific payment ecosystems through actionable strategies.
 							</div>
 						</div>
-						<div className='flex flex-row gap-3 '>
-							<img src="/" />
+						<div className='flex flex-row gap-5 items-center '>
+							<div className='p-4 rounded-full border-2 flex flex-row  justify-center'>
+								<img src="/images/p_2.svg" draggable="false" className='w-14' />
+							</div>
 							<div>
 								Handhold domestic and global payment project planning and execution to scale opportunities with a clear sustainable road map.
 							</div>
 						</div>
-						<div className='flex flex-row gap-3 '>
-							<img src="/" />
+						<div className='flex flex-row gap-5 items-center'>
+							<div className='p-4 rounded-full border-2 flex flex-row  justify-center'>
+								<img src="/images/p_3.svg" draggable="false" className='w-16' />
+							</div>
 							<div>
 								Domain specific business Intelligence, innovation, improvements to increase efficiency, security and user experience for a seemless payment experience.
 							</div>

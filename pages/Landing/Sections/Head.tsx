@@ -23,7 +23,7 @@ const Head = () => {
 					<div>
 						<button className="w-48 flex  flex-row items-center justify-between py-3 px-4 bg-gradient-to-l from-amber-500 to-pink-500 rounded-full">
 							<span>
-								Get Started
+								Learn More
 							</span>
 							<span>
 								-
