@@ -15,11 +15,11 @@ const Navbar = () => {
 	const contact = pathname === '/contact'
 	return (
 		<>
-			<div className={contact ? " bg-black/80 backdrop-blur-2xl px-16 py-3 flex flex-row justify-between  items-center w-full " : " bg-black/80 backdrop-blur-2xl px-16 py-3 flex flex-row justify-between  items-center w-full fixed"}>
+			<div className={contact ? " bg-black/80 backdrop-blur-2xl md:px-16 px-5 py-3 flex flex-row justify-between text-white items-center w-full " : " bg-black/80 backdrop-blur-2xl text-white md:px-16 px-5 py-3 flex flex-row justify-between  items-center w-full md:fixed"}>
 				<div>
 					<Logo />	
 				</div>
-				<div className="flex text-sm flex-row items-center gap-5">
+				<div className="md:flex hidden  text-sm flex-row items-center gap-5">
 					<div className='flex flex-row gap-3'>
 						About Us
 					</div>

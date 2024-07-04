@@ -7,13 +7,13 @@ import React from 'react'
 const P_Services = () => {
 	return (
 		<>
-			<div className='bg-white text-black p-16'>
-				<div className='flex flex-row-reverse items-center max-w-7xl  gap-10 mx-auto p-16'>
-					<div className='flex flex-col gap-5 w-full items-end'>
-						<div className='text-7xl text-right font-semibold'>
+			<div className='bg-white text-black md:p-16 py-10'>
+				<div className='flex md:flex-row-reverse flex-col items-center md:max-w-7xl  gap-10 md:mx-auto md:p-16 p-5'>
+					<div className='flex flex-col gap-5 w-full '>
+						<div className='md:text-7xl text-4xl md:text-right font-semibold'>
 							Payment Consulting
 						</div>
-						<div className='text-right'>
+						<div className='md:text-right w-full '>
 							Provide innovative comprehensive and effective payment solutions that meet the needs and drive business growth.
 						</div>	
 						<div className=''>

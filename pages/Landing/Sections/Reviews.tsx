@@ -4,12 +4,12 @@ import React from 'react';
 
 const Reviews = () => {
 	return (
-		<>
-			<div id="reviews" className='flex flex-col max-w-7xl mx-auto p-28 gap-10'>
+		<div className='bg-black text-white'>
+			<div id="reviews" className='flex flex-col md:max-w-7xl md:mx-auto md:p-28 p-5 gap-10 '>
 				<div className='text-3xl font-medium'>
 					Early Reviews
 				</div>
-				<div className='flex flex-row items-center gap-10'>
+				<div className='flex md:flex-row flex-col items-center gap-10'>
 					<div className=' text-black p-8 bg-white rounded-md shadow-xl shadow-white/50 flex flex-col items-end gap-5'>
 						<div>
 							REDECOM comes with a growth mindset and a positive attitude to teaching and learning. They was able to articulate the problems we are solving, with our product, and it's market in no time. Validating our GTM strategy from an experienced team of professionals like Mr.Gooha, double-downed confidence levels in our thought process. I look forward to collaborate with Deb as opportunities unfold.
@@ -30,7 +30,7 @@ const Reviews = () => {
 				</div>
 
 			</div>
-		</>
+		</div>
 	)
 }
 

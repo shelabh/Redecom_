@@ -7,13 +7,13 @@ import React from 'react'
 const B_Services = () => {
 	return (
 		<>
-			<div id="services" className="flex bg-[url('/images/b_services.png')] bg-cover bg-center flex-col items-center gap-10 p-16">
+			<div id="services" className="flex bg-[url('/images/b_services.png')] bg-cover bg-center flex-col items-center gap-10  md:p-16 py-10 bg-black text-white">
 				<div className='text-3xl font-medium'>
 					Our Services
 				</div>
-				<div className='flex flex-row items-center max-w-7xl  gap-10 mx-auto p-16'>
+				<div className='flex md:flex-row flex-col items-center md:max-w-7xl  gap-10 md:mx-auto md:p-16 p-5'>
 					<div className='flex flex-col gap-5 w-full'>
-						<div className='text-7xl font-semibold'>
+						<div className='md:text-7xl text-4xl font-semibold'>
 							Business Consulting
 						</div>
 						<div>

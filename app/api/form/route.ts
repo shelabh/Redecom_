@@ -18,7 +18,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
 	try {
 		const { name, company, organisation, email, number, type_of_consulting, description_of_business, goals, start_date, duration, budget, heard_about_us, comments } = await req.json();
 		await transporter.sendMail({
-			from: 'tyagishelabh@gmail.com',
+			from: 'redecom99@gmail.com',
 			to: 'redecom99@gmail.com', //redecom99@gmail.com
 			subject: 'New Consulting Contact Recieved!',
 			html: `
@@ -37,6 +37,18 @@ export async function POST(req: NextRequest, res: NextResponse) {
 				<p>Additional Comments or Questions: ${comments}</p>
 			`,
 		});
+
+		await transporter.sendMail({
+			from: 'redecom99@gmail.com',
+			to: email,
+			subject: 'Your Contact Info recieved',
+			html: `
+			  <p>Hi,</p>
+			  <p>Your contact info as been recived, Thanks for taking the initiative!</p>
+			  <p>We look forward to speaking with you!</p>
+			`,
+		});
+		  
 		return new NextResponse(JSON.stringify({ message: 'Email sent' }));
 	} catch (err) {
 		console.log(err);

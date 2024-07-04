@@ -6,18 +6,18 @@ import React from "react";
 
 const Head = () => {
 	return (
-		<div  className="bg-[url('/images/bg.png')]">
-			<div className="flex flex-row items-center gap-16 justify-center h-screen max-w-7xl  mx-auto">
-				<div className="w-full flex flex-col gap-1">
+		<div  className="bg-[url('/images/bg.png')] bg-center bg-cover bg-black text-white w-full">
+			<div className="flex md:flex-row flex-col items-center md:gap-16 gap-8 justify-center h-screen md:max-w-7xl  md:mx-auto">
+				<div className="w-full p-5 md:p-0 flex flex-col items-center md:items-start gap-1">
 					<div className="text-transparent bg-clip-text bg-gradient-to-b from-pink-600 to-yellow-400 text-md">
 						#1 solution for your business
 					</div>
-					<div className="text-8xl font-bold">
+					<div className="md:text-8xl text-center md:text-start text-6xl font-bold">
 						Business Consulting
 					</div>
 				</div>
-				<div className="w-full flex flex-col gap-10">
-					<div className="text-2xl">
+				<div className="w-full p-5 md:p-0 flex flex-col items-center md:items-start md:gap-10 gap-5">
+					<div className="md:text-2xl text-center md:text-start">
 						We offer innovative solution and techniques based on years of experience working on various companies.
 					</div>
 					<div>

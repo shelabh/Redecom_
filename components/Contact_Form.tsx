@@ -90,7 +90,7 @@ const Contact_Form: React.FC<FeedbackFormProps> = () => {
 			<div className="text-black text-2xl font-medium">
 				Closer Than a Click Away
 			</div>
-			<form  className="border w-full text-black flex flex-col gap-5   p-10 rounded-lg " onSubmit={handleSubmit}>
+			<form  className="border w-full text-black flex flex-col gap-5   md:p-10 p-5 rounded-lg " onSubmit={handleSubmit}>
 				<input
 					className="w-full  border-b p-2 focus:outline-none "
 					type="text"

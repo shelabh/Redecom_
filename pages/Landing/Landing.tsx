@@ -16,7 +16,7 @@ import Reviews from "./Sections/Reviews";
 const Landing = () => {
 	return (
 		<>
-			<div className="flex flex-col ">
+			<div className="flex flex-col w-full">
 				<Head />
 				<Banner />
 				<B_Services />

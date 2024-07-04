@@ -14,8 +14,8 @@ const FAQ = () => {
 	const defaultContent3 =
 	"The duration of a project with a business consultant and the timeframe for measuring results can vary significantly based on several factors, including the scope of the project, the complexity of the issues being addressed, and the specific goals of the engagement.";	
     return (
-		<div className='bg-white p-16'>
-			<div className='flex  flex-col gap-10 p-16 items-center max-w-4xl mx-auto w-full '>
+		<div className='bg-white md:p-16 p-5'>
+			<div className='flex  flex-col gap-10 md:p-16 p-5 items-center  md:max-w-4xl md:mx-auto w-full '>
 				<div className="text-2xl  text-black font-medium">
 					Frequently Asked Questions
 				</div>
