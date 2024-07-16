@@ -9,7 +9,7 @@ const P_Services = () => {
 		<>
 			<div className='bg-white text-black md:p-16 py-10'>
 				<div className='flex md:flex-row-reverse flex-col items-center md:max-w-7xl  gap-10 md:mx-auto md:p-16 p-5'>
-					<div className='flex flex-col gap-5 w-full '>
+					<div className='flex flex-col gap-5 w-full md:items-end '>
 						<div className='md:text-7xl text-4xl md:text-right font-semibold'>
 							Payment Consulting
 						</div>

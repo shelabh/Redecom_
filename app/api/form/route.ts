@@ -16,10 +16,10 @@ export async function POST(req: NextRequest, res: NextResponse) {
 	
 
 	try {
-		const { name, company, organisation, email, number, type_of_consulting, description_of_business, goals, start_date, duration, budget, heard_about_us, comments } = await req.json();
+		const { name, company, organisation, email, number, type_of_business, current_turnover , current_marketplace, goals, start_date, duration, budget, heard_about_us, comments } = await req.json();
 		await transporter.sendMail({
 			from: 'redecom99@gmail.com',
-			to: 'redecom99@gmail.com', //redecom99@gmail.com
+			to: 'zimetsujo@gmail.com', //redecom99@gmail.com
 			subject: 'New Consulting Contact Recieved!',
 			html: `
 				<p>Name: ${name}</p>
@@ -27,8 +27,9 @@ export async function POST(req: NextRequest, res: NextResponse) {
 				<p>Organisation: ${organisation}</p>
 				<p>Email: ${email}</p>
 				<p>Phone Number: ${number}</p>
-				<p>Type of Consulting: ${type_of_consulting}</p>
-				<p>Description of Business: ${description_of_business}</p>
+				<p>Type of Business: ${type_of_business}</p>
+				<p>Current Turnover of Business: ${current_turnover}</p>
+				<p>Current Marketplacce of Business: ${current_marketplace}</p>
 				<p>Goals: ${goals}</p>
 				<p>Start Date of Consulting: ${start_date}</p>
 				<p>Duration of Consulting: ${duration}</p>

@@ -19,9 +19,9 @@ const Footer = () => {
 						reserved.
 						</div>
 						<div className='flex flex-row gap-2 items-center'>
-							<img src="/" />
-							<img src="/" />
-							<img src="/" />
+							<img src="/images/ig.svg" draggable="false" />
+							<img src="/images/fb.svg" draggable="false" />
+							<img src="/images/x.svg" draggable="false" />
 						</div>
 
 					</div>
