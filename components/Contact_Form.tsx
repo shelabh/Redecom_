@@ -189,22 +189,23 @@ const Contact_Form: React.FC<FeedbackFormProps> = () => {
 				>
 					<option value="">Type of Business</option>
 					<option value="Agriculture">Agriculture</option>
+					<option value="Automobile and auto components">Automobile and auto components</option>
+					<option value="Chemicals and petrochemicals">Chemicals and petrochemicals</option>
 					<option value="Construction and engineering">Construction and engineering</option>
 					<option value="Education">Education</option>
 					<option value="Fashion">Fashion</option>
+					<option value="FMCG">FMCG</option>
 					<option value="Food and beverages">Food and beverages</option>
 					<option value="Finance">Finance</option>
+					<option value="Health care">Health care</option>
+					<option value="Manufacturing">Manufacturing</option>
 					<option value="Media">Media</option>
 					<option value="Pharmaceutics">Pharmaceutics</option>
 					<option value="Retail">Retail</option>
 					<option value="Technology">Technology</option>
-					<option value="Transport">Transport</option>
-					<option value="Health care">Health care</option>
-					<option value="Manufacturing">Manufacturing</option>
-					<option value="Chemicals and petrochemicals">Chemicals and petrochemicals</option>
-					<option value="Automobile and auto components">Automobile and auto components</option>
-					<option value="FMCG">FMCG</option>
 					<option value="Textile, Apparels and accessories">Textile, Apparels and accessories</option>
+					<option value="Transport">Transport</option>
+					<option value="Other">Other</option>
 				</select>
 				<input
 					className="w-full border-b p-2 focus:outline-none "
