@@ -19,7 +19,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
 		const { name, company, organisation, email, number, type_of_business, current_turnover , current_marketplace, goals, start_date, duration, budget, heard_about_us, comments } = await req.json();
 		await transporter.sendMail({
 			from: 'redecom99@gmail.com',
-			to: 'zimetsujo@gmail.com', //redecom99@gmail.com
+			to: 'redecom99@gmail.com', //redecom99@gmail.com
 			subject: 'New Consulting Contact Recieved!',
 			html: `
 				<p>Name: ${name}</p>
