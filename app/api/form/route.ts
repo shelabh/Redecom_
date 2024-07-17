@@ -19,7 +19,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
 		const { name, company, organisation, email, number, type_of_business, current_turnover , current_marketplace, goals, start_date, duration, budget, heard_about_us, comments } = await req.json();
 		await transporter.sendMail({
 			from: 'redecom99@gmail.com',
-			to: 'redecom99@gmail.com', //redecom99@gmail.com
+			to: 'zimetsujo@gmail.com', //redecom99@gmail.com
 			subject: 'New Consulting Contact Recieved!',
 			html: `
 				<p>Name: ${name}</p>
@@ -44,9 +44,19 @@ export async function POST(req: NextRequest, res: NextResponse) {
 			to: email,
 			subject: 'Your Contact Info recieved',
 			html: `
-			  <p>Hi,</p>
-			  <p>Your contact info as been recived, Thanks for taking the initiative!</p>
-			  <p>We look forward to speaking with you!</p>
+			  	<p>Dear ${name},</p>
+				<p>I hope this letter finds you well.
+				<p>Thanks for entrusting us with your enquiry about the business assignment. We greatly appreciate
+				the opportunity to collaborate with you and your team on this project.</p>
+				<p>We are committed to deliver quality which impacts your business expectations, to start with at least
+				2x in numbers.</p>
+				<p>Our team is dedicated to understand your unique business pain points to provide strategic tangible
+				solutions that will drive success and growth for your organization.</p>
+				<p>Thank you once again for choosing REDECOM.</p>
+				<p>We are eager to contribute to your project&#39;s success and look forward to a productive collaboration.</p>
+				<p>Warm Regards,</p>
+				<p>Team REDECOM</p>
+			 
 			`,
 		});
 		  
