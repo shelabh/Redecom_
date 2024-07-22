@@ -19,18 +19,20 @@ const Navbar = () => {
 				<div>
 					<Logo />	
 				</div>
+				{contact ? <></> :
 				<div className="md:flex hidden  text-sm flex-row items-center gap-5">
-					<div className='flex flex-row gap-3'>
+					<Link href="#about" >
 						About Us
-					</div>
-					<Link href="#services">
+					</Link>
+					
+					<Link href="#services" >
 						Services
 					</Link>
 					<Link href="#reviews">
 						Reviews
 					</Link>
 					
-				</div>
+				</div>}
 				<div>
 					<Contact_Button />
 				</div>
