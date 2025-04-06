@@ -12,21 +12,27 @@ const P_Features = () => {
 				</div>
 				<div className='grid  md:grid-cols-3 grid-flow-row gap-10'>
 					<div className='flex flex-col items-center gap-5'>
-						<img src="/images/digital_payment.png" draggable="false" />
+						<div className='aspect-video w-full h-[250px]'>
+							<img src="/images/business_loan.jpeg" draggable="false" className='w-full h-full object-cover rounded-lg'/>
+						</div>
 						<span className='text-xl font-medium'>
-							digital online payments
+							business loan pitch deck & financials 
 						</span>
 					</div>
 					<div className='flex flex-col items-center gap-5'>
-						<img src="/images/payment_planning.png" draggable="false" />
+						<div className='aspect-video w-full h-[250px]'>
+							<img src="/images/collateral.jpeg" draggable="false" className='w-full h-full object-cover object-left rounded-lg' />
+						</div>
 						<span className='text-xl font-medium'>
-							payments planning & innovation
+							collateral free business loans 
 						</span>
 					</div>
 					<div className='flex flex-col items-center gap-5'>
-						<img src="/images/advisory.png" draggable="false" />
+						<div className='aspect-video w-full h-[250px]'>
+							<img src="/images/govt.jpeg" draggable="false" className='w-full h-full object-cover rounded-lg' />
+						</div>
 						<span className='text-xl font-medium text-center'>
-							efficient & secure banking and digital payments  advisory
+							government sponsored udyam & start-up business loans 
 						</span>
 					</div>
 

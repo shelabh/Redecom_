@@ -11,10 +11,10 @@ const P_Services = () => {
 				<div className='flex md:flex-row-reverse flex-col items-center md:max-w-7xl  gap-10 md:mx-auto md:p-16 p-5'>
 					<div className='flex flex-col gap-5 w-full md:items-end '>
 						<div className='md:text-7xl text-4xl md:text-right font-semibold'>
-							Payment Consulting
+							Business Funding Initiatives
 						</div>
 						<div className='md:text-right w-full '>
-							Provide innovative comprehensive and effective payment solutions that meet the needs and drive business growth.
+							We ensure the business is ready to proceed to meet the statute funding requirements.
 						</div>	
 						<div className=''>
 							<Link href="/contact">
@@ -30,31 +30,35 @@ const P_Services = () => {
 						</div>
 					</div>
 					<div className='flex flex-col gap-10 w-full'>
-						<div className='flex flex-row gap-5 items-center '>
+						<div className='flex flex-row gap-5 items-start'>
 							<div className='p-4 rounded-full border-2 flex flex-row  justify-center'>
-								<img src="/images/b_1.svg" draggable="false" className='w-12' />
+								<img src="/images/b_1.svg" draggable="false" className='w-9' />
 							</div>
 							<div>
-								Strategic planning and execution to fulfill business-specific payment ecosystems through actionable strategies.
+								Facilitate Business Loan Process Initiation:  Project Report Preparation, Financial Report Preparation and Pitch Deck Report Preparation.
 							</div>
 						</div>
-						<div className='flex flex-row gap-5 items-center '>
+						<div className='flex flex-row gap-5 items-start'>
 							<div className='p-4 rounded-full border-2 flex flex-row  justify-center'>
-								<img src="/images/p_2.svg" draggable="false" className='w-14' />
+								<img src="/images/p_2.svg" draggable="false" className='w-14 ' />
 							</div>
 							<div>
-								Handhold domestic and global payment project planning and execution to scale opportunities with a clear sustainable road map.
+								Handhold businesses on Document Preparation: Detailed Project Report (DPR), Fund Utilization Report, 5-Year Business Roadmap, 2-Year ROI Calculation, Employment Generation Plan.	 
 							</div>
 						</div>
-						<div className='flex flex-row gap-5 items-center'>
+						<div className='flex flex-row gap-5 items-start'>
 							<div className='p-4 rounded-full border-2 flex flex-row  justify-center'>
-								<img src="/images/p_3.svg" draggable="false" className='w-16' />
+								<img src="/images/p_3.svg" draggable="false" className='w-24' />
 							</div>
 							<div>
-								Domain specific business Intelligence, innovation, improvements to increase efficiency, security and user experience for a seemless payment experience.
+							Domain specific business Intelligence, competitive analysis and other statutory business requirements for a faster efficient business: Competitor Analysis (Domain Specific Market R&D), Application Submission to the Department, Resolution of Department Queries, Government approvals, Government certified Patent and filing, Business Trademark / Logo Registration.
+
 							</div>
 						</div>
 					</div>
+				</div>
+				<div className=' text-center'>
+				If you have any questions or require further clarification, please do contact us.
 				</div>
 			</div>
 		</>
